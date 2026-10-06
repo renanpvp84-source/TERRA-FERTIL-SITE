@@ -1,0 +1,30 @@
+/* Base do site. Os estilos de cada tela ficam em src/styles. */
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: #fff; }
+a { color: #1E3FA8; }
+a:hover { color: #B80F16; }
+img { max-width: 100%; }
+
+/* Âncoras param abaixo do header fixo */
+[id] { scroll-margin-top: 100px; }
+
+/* Home: uma versão para telas largas e outra pensada para o celular */
+.view-mobile { display: none; }
+@media (max-width: 760px) {
+  .view-desktop { display: none; }
+  .view-mobile { display: block; }
+  [id] { scroll-margin-top: 124px; }
+}
+
+/*
+ * Estado inicial das animações (GSAP assume a partir daqui).
+ * Só vale com a classe "mo" no <html>, colocada quando o visitante
+ * não pediu redução de movimento. Sem ela, tudo aparece estático.
+ */
+html.mo [data-rv]:not([data-in]) { opacity: 0; }
+html.mo [data-rv="img"]:not([data-in]) { opacity: 1; clip-path: inset(0 0 100% 0 round 22px); }
+[data-px], [data-pxx] { will-change: transform; }
+
+/* Páginas internas ocupam a altura toda */
+.tfc, .tfk, .tfp { min-height: 100vh; min-height: 100dvh; }
+.tfm { min-height: 100vh; min-height: 100dvh; }

@@ -1,0 +1,46 @@
+.tfm,.tfm *{box-sizing:border-box}
+.tfm{font-family:'Figtree Variable','Figtree','Segoe UI',system-ui,sans-serif;color:#14161C;background:#fff;font-size:16px;line-height:1.42;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.tfm a{color:inherit;text-decoration:none}
+.tfm button{font:inherit;color:inherit;cursor:pointer}
+.tfm input{font:inherit;color:inherit}
+.tfm :focus-visible{outline:3px solid #1E3FA8;outline-offset:2px}
+.tfm .dsp{font-family:'Aleo','Rockwell',Georgia,serif;font-weight:700;letter-spacing:-.012em;text-wrap:balance}
+.tfm .ic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.tfm .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.tfm .pad{padding-left:16px;padding-right:16px}
+.tfm .btn{display:flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 24px;border-radius:999px;border:0;font-weight:800;font-size:16.5px;transition:transform .25s cubic-bezier(.22,1,.36,1),background .25s}
+.tfm .btn:active{transform:scale(.97)}
+.tfm .btn-red{background:#E0161C;color:#fff;box-shadow:0 10px 24px rgba(224,22,28,.28)}
+.tfm .btn-line{background:transparent;color:#14161C;box-shadow:inset 0 0 0 1.5px #14161C}
+.tfm .btn-white{background:#fff;color:#14161C}
+.tfm .hscroll{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:4px 16px 8px;-webkit-overflow-scrolling:touch}
+.tfm .hscroll::-webkit-scrollbar{display:none}
+.tfm .hscroll > *{scroll-snap-align:start;flex:none}
+.tfm .icb{position:relative;width:44px;height:44px;border-radius:50%;border:0;background:transparent;display:grid;place-items:center}
+.tfm .cnt{position:absolute;right:2px;top:2px;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:#E0161C;color:#fff;font-size:11px;font-weight:800;display:grid;place-items:center;box-shadow:0 0 0 2px #fff}
+.tfm .need{display:flex;align-items:center;gap:12px;min-height:72px;padding:12px 14px;border-radius:18px;background:#F4F5F8;transition:transform .2s}
+.tfm .need:active{transform:scale(.97)}
+.tfm .need b{display:block;font-size:15.5px;line-height:1.2}
+.tfm .need small{display:block;font-size:12.5px;color:#5B6272}
+.tfm .dot{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;flex:none}
+.tfm .ring{width:72px;height:72px;border-radius:50%;background:#fff;display:grid;place-items:center;margin:0 auto}
+.tfm .ring .ic{width:30px;height:30px;stroke-width:1.6}
+.tfm .ring-r{box-shadow:0 0 0 2.500px #fff,0 0 0 5px #E0161C;color:#B80F16}
+.tfm .ring-b{box-shadow:0 0 0 2.500px #fff,0 0 0 5px #1E3FA8;color:#1E3FA8}
+.tfm .cat{display:block;width:84px;padding-top:6px;text-align:center;font-size:13px;font-weight:700}
+.tfm .cat span{display:block;margin-top:11px}
+.tfm .pc{position:relative;display:flex;flex-direction:column;border:1px solid #E3E6EC;border-radius:16px;padding:8px;background:#fff}
+.tfm .pc-img{display:block;aspect-ratio:1/1;border-radius:10px;overflow:hidden;background:#F4F5F8}
+.tfm .pc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.tfm .fav{position:absolute;right:4px;top:4px;width:44px;height:44px;border-radius:50%;border:0;background:#fff;display:grid;place-items:center;box-shadow:0 3px 10px rgba(15,26,74,.16)}
+.tfm .price{display:flex;align-items:baseline;gap:3px;font-variant-numeric:tabular-nums;font-weight:800;letter-spacing:-.015em}
+.tfm .price small{font-size:12px;font-weight:700;color:#5B6272}
+.tfm .price b{font-size:22px;line-height:1}
+.tfm .price sup{font-size:12.5px;line-height:1;position:relative;top:-6px;margin-left:-2px}
+.tfm .add{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;height:44px;margin-top:10px;border-radius:999px;border:1.5px solid #E0161C;background:#fff;color:#B80F16;font-weight:800;font-size:14px}
+.tfm .add:active{background:#E0161C;color:#fff}
+.tfm .rnd{width:44px;height:44px;border-radius:50%;border:0;background:#E0161C;color:#fff;display:grid;place-items:center;flex:none}
+.tfm .tabbar a,.tfm .tabbar button{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:60px;border:0;background:transparent;font-size:11.5px;font-weight:700;color:#5B6272}
+.tfm .tabbar .on{color:#B80F16}
+.tfm .toast{position:absolute;left:50%;bottom:76px;transform:translateX(-50%);white-space:nowrap;min-height:44px;padding:0 18px;border-radius:999px;background:#14161C;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+@media (prefers-reduced-motion:reduce){.tfm,.tfm *{transition:none!important;animation:none!important}}

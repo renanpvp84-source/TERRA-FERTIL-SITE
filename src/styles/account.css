@@ -1,0 +1,37 @@
+.tfc,.tfc *{box-sizing:border-box}
+.tfc{font-family:'Figtree Variable','Figtree','Segoe UI',system-ui,sans-serif;color:#14161C;background:#F4F5F8;font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.tfc a{color:inherit;text-decoration:none}
+.tfc button{font:inherit;color:inherit;cursor:pointer}
+.tfc input,.tfc select,.tfc textarea{font:inherit;color:inherit}
+.tfc :focus-visible{outline:3px solid #1E3FA8;outline-offset:2px}
+.tfc .dsp{font-family:'Aleo','Rockwell',Georgia,serif;font-weight:700;letter-spacing:-.012em;text-wrap:balance}
+.tfc .wrap{max-width:1360px;margin:0 auto;padding-left:40px;padding-right:40px}
+.tfc .ic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.tfc .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;border:0;font-weight:800;font-size:15.5px;white-space:nowrap;transition:transform .25s cubic-bezier(.22,1,.36,1),background .25s,color .25s}
+.tfc .btn:active{transform:scale(.97)}
+.tfc .btn-red{background:#E0161C;color:#fff}
+.tfc .btn-red:hover{background:#B80F16;color:#fff}
+.tfc .btn-line{background:transparent;color:#14161C;box-shadow:inset 0 0 0 1.5px #14161C}
+.tfc .btn-line:hover{background:#14161C;color:#fff}
+.tfc .btn-sm{min-height:44px;padding:0 18px;font-size:14.5px}
+.tfc .hd{position:sticky;top:0;z-index:60;background:#fff;box-shadow:0 1px 0 #E3E6EC}
+.tfc .hd-main{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:14px;padding-bottom:14px}
+.tfc .hd-logo img{display:block;height:40px;width:auto}
+.tfc .hd-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.tfc .nv{display:flex;align-items:center;min-height:44px;padding:0 13px;border-radius:12px;font-size:14.5px;font-weight:700;color:#2A2F3A}
+.tfc .nv:hover{background:#F4F5F8;color:#B80F16}
+.tfc .card{background:#fff;border-radius:22px;padding:28px;box-shadow:0 0 0 1px #E3E6EC}
+.tfc .side a{display:flex;align-items:center;gap:12px;min-height:48px;padding:0 14px;border-radius:14px;font-weight:600;font-size:15.5px;transition:background .2s,color .2s}
+.tfc .side a:hover{background:#F4F5F8}
+.tfc .side a.on{background:#FDECEC;color:#B80F16;font-weight:800}
+.tfc .side .ic{width:20px;height:20px}
+.tfc .lbl{display:block;font-size:13.5px;font-weight:700;margin-bottom:6px}
+.tfc .inp{width:100%;height:48px;border-radius:14px;border:1.5px solid #CDD3E0;background:#fff;padding:0 14px;font-size:15.5px;outline:0;transition:border-color .2s,box-shadow .2s}
+.tfc .inp:focus{border-color:#1E3FA8;box-shadow:0 0 0 4px rgba(30,63,168,.14)}
+.tfc textarea.inp{height:auto;min-height:92px;padding:12px 14px;resize:vertical}
+.tfc .tag{display:inline-flex;align-items:center;min-height:26px;padding:0 11px;border-radius:999px;font-size:12px;font-weight:800}
+.tfc .row{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:14px 0;border-top:1px solid #E3E6EC}
+.tfc .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:90;display:flex;align-items:center;min-height:48px;padding:0 20px;border-radius:999px;background:#14161C;color:#fff;font-weight:700;font-size:14.5px;box-shadow:0 14px 36px rgba(0,0,0,.28)}
+@media (max-width:900px){.tfc .wrap{padding-left:16px;padding-right:16px}.tfc .card{padding:20px}}
+@media (max-width:520px){.tfc .hd-logo img{height:30px}.tfc .hd-main{gap:8px}.tfc .nv{padding:0 8px;font-size:13.5px}.tfc .side{max-width:none!important}}
+@media (prefers-reduced-motion:reduce){.tfc,.tfc *{transition:none!important;animation:none!important}}
